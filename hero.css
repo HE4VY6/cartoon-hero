@@ -1,5 +1,10 @@
+html, body{
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+
 header{
-	background-color: #0afc3e;
+	background-color: #31537c;
 	padding: 40px;
 	text-align: center;
 }
@@ -11,9 +16,50 @@ h1{
 
 
 header img{
-	border-radius: 150px;
+	border-radius: 180px;
+    width: 300px;
+    height: 300px;
+    border: 16px solid #3171bf;
 }
-/*<header>
-		<img src="profile.jpg">
-		<h1>Rick Sanchez</h1>
-	</header>*/
+
+.content{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+
+
+img.big-image{
+	max-width: 100%;
+}
+
+
+p.caption{
+	font-size: 16px;
+	color: black;
+	font-style: italic;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	color: limegreen;
+	text-decoration: none;
+}
+
+footer{
+	margin-top: 20px;
+	padding: 40px 20px;
+	background-color: #5882b5;
+}
+
+ul{
+	text-align: center;
+}
+
+footer ul li{
+	display: inline;
+}
