@@ -1,0 +1,77 @@
+html, body{
+	font-family: Arial, sans-serif;
+	margin: 0;
+	background-color: #c6cec6;
+
+}
+
+header{
+	
+}
+
+body{
+	background-color: #000000;
+	background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp6737133.png&f=1&nofb=1&ipt=11626d2b0a255ec4105ccf88ffe9b71208ff6b12aed1014f972a1c00bf824c2b);
+	background-size: 100px;
+	background-repeat: repeat;
+	padding: 40px;
+	text-align: center;
+}
+h1{
+	font-size: 80px;
+	color: white;
+	text-shadow: uppercase;
+}
+
+header img{
+	border-radius: 180px;
+    width: 300px;
+    height: 300px;
+    border: 16px solid #5cf751;
+    box-shadow: 0 10px 20px black;
+}
+.content{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+	border: 16px solid #000000;
+	background-color: #c6cec6;
+}
+
+img.big-image{
+	max-width: 100%;
+}
+
+p.caption{
+	font-size: 16px;
+	color: black;
+	font-style: italic;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+}
+
+a{
+	color: #23b218;
+	text-decoration: none;
+}
+
+footer{
+	margin-top: 20px;
+	padding: 40px 20px;
+	background-color: #afafaf;
+	border: 10px solid #000000;
+}
+
+footer ul{
+	text-align: center;
+}
+
+footer ul li{
+	display: inline-block;
+	margin: 0 10px;
+}
