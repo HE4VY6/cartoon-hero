@@ -9,6 +9,7 @@ header{
 	text-align: center;
 }
 
+
 h1{
 	font-size: 90px;
 	color: white;
@@ -27,6 +28,7 @@ header img{
 	margin: 0 auto;
 	padding: 0 20px;
 
+}
 
 img.big-image{
 	max-width: 100%;
@@ -53,13 +55,14 @@ a{
 footer{
 	margin-top: 20px;
 	padding: 40px 20px;
-	background-color: #5882b5;
+	background-color: #c6cec6;
 }
 
-ul{
+footer ul{
 	text-align: center;
 }
 
 footer ul li{
-	display: inline;
+	display: inline-block;
+	margin: 0 10px;
 }
